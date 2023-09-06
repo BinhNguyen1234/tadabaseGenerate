@@ -1,6 +1,0 @@
-D:\DatabaseGen\Database1\bin\Debug\Database1.dacpac
-D:\DatabaseGen\Database1\bin\Debug\Database1.dll
-D:\DatabaseGen\Database1\bin\Debug\Database1.pdb
-D:\DatabaseGen\Database1\obj\Debug\Database1.sqlproj.AssemblyReference.cache
-D:\DatabaseGen\Database1\obj\Debug\Database1.dll
-D:\DatabaseGen\Database1\obj\Debug\Database1.pdb
