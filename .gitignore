@@ -1,5 +1,5 @@
 *.dbmdl
 *.jfm
-**/bin/
-**/obj/
-**/.vs/
+bin/
+obj/
+.vs/
