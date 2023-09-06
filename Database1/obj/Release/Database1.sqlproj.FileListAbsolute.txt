@@ -4,3 +4,9 @@ D:\DatabaseGen\Database1\bin\Release\Database1.pdb
 D:\DatabaseGen\Database1\obj\Release\Database1.sqlproj.AssemblyReference.cache
 D:\DatabaseGen\Database1\obj\Release\Database1.dll
 D:\DatabaseGen\Database1\obj\Release\Database1.pdb
+D:\binh\tadabaseGenerate\Database1\bin\Release\Database1.dacpac
+D:\binh\tadabaseGenerate\Database1\bin\Release\Database1.dll
+D:\binh\tadabaseGenerate\Database1\bin\Release\Database1.pdb
+D:\binh\tadabaseGenerate\Database1\obj\Release\Database1.sqlproj.AssemblyReference.cache
+D:\binh\tadabaseGenerate\Database1\obj\Release\Database1.dll
+D:\binh\tadabaseGenerate\Database1\obj\Release\Database1.pdb
