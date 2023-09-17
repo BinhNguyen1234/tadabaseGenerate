@@ -63,7 +63,7 @@
     <PreDeploy Include="Binh.sql" />
   </ItemGroup>
   <ItemGroup>
-    <SqlCmdVariable Include="clearValue">
+    <SqlCmdVariable Include="dropTable">
       <DefaultValue>false</DefaultValue>
       <Value>$(SqlCmdVar__1)</Value>
     </SqlCmdVariable>

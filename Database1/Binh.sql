@@ -1,5 +1,6 @@
-﻿if '$(clearValue)' = 'true'
+﻿if '$(dropTable)' = 'true'
     BEGIN
+        DECLARE @isContinue BINARY(1) = 1;
         DECLARE @sql varchar(max);
         while 0=0
             BEGIN
@@ -12,12 +13,12 @@
                 EXEC (@sql)
                 IF @sql IS NULL
                     BEGIN
-	                    BREAK;
+	                    SET @isContinue = 0;
                     END
-    END
-DROP TABLE dbo.Courses
-DROP TABLE dbo.Students
-DROP TABLE dbo.Enrollments
+            END
+DROP TABLE IF EXISTS [dbo].[Courses]
+DROP TABLE IF EXISTS [dbo].[Students]
+DROP TABLE IF EXISTS [dbo].[Enrollments]
     END
 
 CREATE TABLE [dbo].[Students] (
