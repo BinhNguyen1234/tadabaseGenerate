@@ -60,4 +60,10 @@
   <ItemGroup>
     <PreDeploy Include="PoolingBinh.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="dropTable">
+      <DefaultValue>false</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
 </Project>
