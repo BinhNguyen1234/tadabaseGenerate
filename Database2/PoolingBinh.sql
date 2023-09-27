@@ -2,7 +2,7 @@
     BEGIN
         DECLARE @isContinue BINARY(1) = 1;
         DECLARE @sql varchar(max);
-        while 0=0
+        while @isContinue=1
             BEGIN
                 SELECT TOP(1) @sql = 'ALTER TABLE ' 
                     + '['+ Schema_name(PK.schema_id) 
